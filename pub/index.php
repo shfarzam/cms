@@ -3,7 +3,7 @@
 <html>
 <head content="text/plain">
 
-    <title>Hello Docker World!!</title>
+    <title>Hello Docker World</title>
 </head>
 <style>
     table, th, td {
