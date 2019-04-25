@@ -5,6 +5,7 @@
 
     <title>Hello Docker World</title>
 </head>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
 <style>
     table, th, td {
         border: 1px solid darkolivegreen;
