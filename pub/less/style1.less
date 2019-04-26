@@ -1,0 +1,22 @@
+@base-color: #4415f8;
+@text-color: #1A237E;
+@mycolor: #521fa1;
+@myfontsize: 34px;
+@thinBoredr: 5px solid @mycolor;
+@paddingVar: 15px 15px 15px 35px;
+
+body {
+  color: @text-color;
+  text-align: center;
+}
+
+table {
+  background-color: lighten(@base-color,40%);
+  color: @base-color;
+}
+
+#mypar {
+  font-size: @myfontsize;
+  border: @thinBoredr;
+  padding: @paddingVar;
+}

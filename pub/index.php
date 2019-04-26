@@ -5,19 +5,23 @@
 
     <title>Hello Docker World</title>
 </head>
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+<link rel="stylesheet/less" type="text/css" href="less/style1.less" >
+<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.js" ></script>
+<!--
 <style>
     table, th, td {
         border: 1px solid darkolivegreen;
         text-align: center;
     }
 </style>
-<body style="text-align: center;align-content: center">
+-->
+<body >
 
+<div id="mypar">
+    <p>Hello, World!</p>
+    <h1>By Docker</h1>
+</div>
 <?php
-echo "<p>Hello, World!</p><h1>By Docker</h1>";
-
-
 $dsn = 'mysql:dbname=test_db;host=db';
 $user = 'sh';
 $password = '12345';
@@ -56,7 +60,7 @@ $sql .= " INSERT INTO Persons VALUES (14, 'Far41', 'Sha41', 'allers41','Nür41')
 $sql .= " INSERT INTO Persons VALUES (15, 'Far51', 'Sha51', 'allers51','Nür51')";
 
 try {
-    $result = $link1->exec($sql);
+   // $result = $link1->exec($sql);
     echo "<p>Insert down successfully </p>";
 } catch (PDOException $e) {
 
@@ -69,7 +73,7 @@ try {
     $stmt = $link1->query($sql);
 
 
-    echo "<table align='center'>";
+    echo "<table align='center' id='somediv'>";
     echo "<tr><th>PersonID</th> <th>First Name</th>  <th>Last Name</th> </tr>";
     // output data of each row
 
