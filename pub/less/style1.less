@@ -1,10 +1,6 @@
-@base-color: #4415f8;
-@text-color: #1A237E;
-@mycolor: #521fa1;
-@myfontsize: 34px;
-@thinBoredr: 5px solid @mycolor;
-@paddingVar: 15px 15px 15px 35px;
-@myStringVar: " with an appended string";
+
+@import "lessvar.less";
+
 
 body {
   color: @text-color;
@@ -16,7 +12,17 @@ table {
   background-color: lighten(@base-color,35%);
   color: @base-color;
   .border-radius-round();
+  .box-shadow(15px, 20px, 10px, gray);
+  &:hover {
+    color: white;
+  }
 
+}
+
+.box-shadow(@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
 }
 
 .border-radius (@radius: 5px) {
