@@ -1,11 +1,11 @@
 <!-- ./php/index.php -->
 
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head content="text/plain">
 
     <title>Hello Docker World</title>
 </head>
-<link rel="stylesheet/less" type="text/css" href="less/style1.less" >
+<link rel="stylesheet/less" type="text/css" href="less/style1.less" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.js" ></script>
 <!--
 <style>
@@ -17,10 +17,15 @@
 -->
 <body >
 
-<div id="mypar">
+<div id="mypar1">
     <p>Hello, World!</p>
+</div>
+<br>
+<div id="mypar2">
     <h1>By Docker</h1>
 </div>
+<br>
+
 <?php
 $dsn = 'mysql:dbname=test_db;host=db';
 $user = 'sh';

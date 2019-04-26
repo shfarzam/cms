@@ -4,19 +4,47 @@
 @myfontsize: 34px;
 @thinBoredr: 5px solid @mycolor;
 @paddingVar: 15px 15px 15px 35px;
+@myStringVar: " with an appended string";
 
 body {
   color: @text-color;
   text-align: center;
+  background-color: lighten(@base-color,42%);
 }
 
 table {
-  background-color: lighten(@base-color,40%);
+  background-color: lighten(@base-color,35%);
   color: @base-color;
+  .border-radius-round();
+
 }
 
-#mypar {
+.border-radius (@radius: 5px) {
+  -webkit-border-radius: 5px @radius 5px;
+  -moz-border-radius: 5px @radius 5px;
+  border-radius: 5px @radius 5px;
+}
+
+.border-radius-round (@radius: 10px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+#mypar2 {
+  border: 1px solid olive;
+  .border-radius(25px);
+  background-color: lighten(olive,10%);
+}
+
+#mypar2:after {
+  content: @myStringVar;
+}
+
+#mypar1 {
   font-size: @myfontsize;
   border: @thinBoredr;
   padding: @paddingVar;
+  .border-radius-round(20px);
 }
+
