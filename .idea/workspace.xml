@@ -5,22 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b96054fd-7f81-4f8f-ac14-2d8045f0a56e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pub/api/config/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/api/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/api/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/api/manage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/api/objects/product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/api/person/read.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/classes/PayPalAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/classes/PaymentInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/classes/Paypal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/classes/Visa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/classes/VisaAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/pattern.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pub/readapi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/controllers/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/controllers/Dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/controllers/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/controllers/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/first_test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/libs/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/libs/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/libs/Hash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/libs/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/libs/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/libs/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/models/DashboardModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/models/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/404/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/dashboard/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/dashboard/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/help/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/index/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/login/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/user/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pub/views/user/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apache/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache/demo.apache.conf" beforeDir="false" afterPath="$PROJECT_DIR$/apache/demo.apache.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache/project1.conf" beforeDir="false" afterPath="$PROJECT_DIR$/apache/project1.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/www.shahriar-docker.test-access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/www.shahriar-docker.test-access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/www.shahriar-docker.test-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/www.shahriar-docker.test-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pub/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/less/lessvar.less" beforeDir="false" afterPath="$PROJECT_DIR$/pub/less/lessvar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/less/style1.less" beforeDir="false" afterPath="$PROJECT_DIR$/pub/less/style1.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,105 +49,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="45" column="35" selection-start-line="44" selection-start-column="62" selection-end-line="45" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/api/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/api/objects/product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pub/api/person/read.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/api/config/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/readapi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/pattern.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/classes/PaymentInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/api/manage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pub/api/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Less File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>href</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,25 +70,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/less/style1.less" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/pub/index.php" />
-        <option value="$PROJECT_DIR$/pub/less/lessvar.less" />
-        <option value="$PROJECT_DIR$/pub/less/style1.less" />
-        <option value="$PROJECT_DIR$/pub/classes/PayPalAdapter.php" />
-        <option value="$PROJECT_DIR$/pub/classes/PaymentInterface.php" />
-        <option value="$PROJECT_DIR$/pub/classes/Paypal.php" />
-        <option value="$PROJECT_DIR$/pub/classes/Visa.php" />
-        <option value="$PROJECT_DIR$/pub/classes/VisaAdapter.php" />
-        <option value="$PROJECT_DIR$/pub/pattern.php" />
-        <option value="$PROJECT_DIR$/pub/classes/manage.php" />
-        <option value="$PROJECT_DIR$/pub/api/delete.php" />
-        <option value="$PROJECT_DIR$/pub/api/manage.php" />
-        <option value="$PROJECT_DIR$/pub/api/objects/product.php" />
-        <option value="$PROJECT_DIR$/pub/api/config/api.php" />
-        <option value="$PROJECT_DIR$/pub/api/person/read.php" />
         <option value="$PROJECT_DIR$/pub/api/config/database.php" />
         <option value="$PROJECT_DIR$/pub/readapi.php" />
+        <option value="$PROJECT_DIR$/pub/first_test.php" />
+        <option value="$PROJECT_DIR$/pub/.htaccess.php" />
+        <option value="$PROJECT_DIR$/apache/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/apache/demo.apache.conf" />
+        <option value="$PROJECT_DIR$/apache/project1.conf" />
+        <option value="$PROJECT_DIR$/pub/.htaccess" />
+        <option value="$PROJECT_DIR$/pub/404.php" />
+        <option value="$PROJECT_DIR$/pub/views/footer.php" />
+        <option value="$PROJECT_DIR$/pub/views/help/index.php" />
+        <option value="$PROJECT_DIR$/pub/views/index/index.php" />
+        <option value="$PROJECT_DIR$/pub/models/login.php" />
+        <option value="$PROJECT_DIR$/pub/views/404/index.php" />
+        <option value="$PROJECT_DIR$/pub/models/404_model.php" />
+        <option value="$PROJECT_DIR$/pub/models/login_model.php" />
+        <option value="$PROJECT_DIR$/pub/models/help_model.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/login.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/help.php" />
+        <option value="$PROJECT_DIR$/pub/libs/Database.php" />
+        <option value="$PROJECT_DIR$/pub/less/lessvar.less" />
+        <option value="$PROJECT_DIR$/pub/config/constants.php" />
+        <option value="$PROJECT_DIR$/pub/config/database.php" />
+        <option value="$PROJECT_DIR$/pub/config/path.php" />
+        <option value="$PROJECT_DIR$/pub/config.php" />
+        <option value="$PROJECT_DIR$/pub/views/dashboard/js/ajax.js" />
+        <option value="$PROJECT_DIR$/pub/libs/View.php" />
+        <option value="$PROJECT_DIR$/pub/libs/Model.php" />
+        <option value="$PROJECT_DIR$/pub/libs/Hash.php" />
+        <option value="$PROJECT_DIR$/pub/libs/DB.php" />
+        <option value="$PROJECT_DIR$/pub/libs/Controller.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/index.php" />
+        <option value="$PROJECT_DIR$/pub/models/HelpModel.php" />
+        <option value="$PROJECT_DIR$/pub/libs/Session.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/404.php" />
+        <option value="$PROJECT_DIR$/pub/views/user/index.php" />
+        <option value="$PROJECT_DIR$/pub/views/login/index.php" />
+        <option value="$PROJECT_DIR$/pub/views/dashboard/index.php" />
+        <option value="$PROJECT_DIR$/pub/models/UserModel.php" />
+        <option value="$PROJECT_DIR$/pub/models/LoginModel.php" />
+        <option value="$PROJECT_DIR$/pub/models/DashboardModel.php" />
+        <option value="$PROJECT_DIR$/pub/less/style1.less" />
+        <option value="$PROJECT_DIR$/pub/index.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/User.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/Login.php" />
+        <option value="$PROJECT_DIR$/pub/libs/Bootstrap.php" />
+        <option value="$PROJECT_DIR$/pub/views/header.php" />
+        <option value="$PROJECT_DIR$/pub/views/user/edit.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/Dashboard.php" />
+        <option value="$PROJECT_DIR$/pub/controllers/Help.php" />
       </list>
     </option>
   </component>
@@ -168,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,55 +148,33 @@
               <item name="php-docker" type="462c0819:PsiDirectoryNode" />
               <item name="pub" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="php-docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-docker" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php-docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-docker" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php-docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-docker" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php-docker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-docker" type="462c0819:PsiDirectoryNode" />
-              <item name="pub" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="person" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pub/classes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pub/controllers" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pub/api" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pub/controllers" />
+      <recent name="$PROJECT_DIR$/pub/models" />
+      <recent name="$PROJECT_DIR$/pub" />
       <recent name="$PROJECT_DIR$/pub/classes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pub/views" />
+      <recent name="$PROJECT_DIR$/pub/controllers" />
+      <recent name="$PROJECT_DIR$/pub/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,21 +200,22 @@
       <option name="presentableId" value="Default" />
       <updated>1556198916650</updated>
       <workItem from="1556198918036" duration="18404000" />
-      <workItem from="1556520117446" duration="10373000" />
+      <workItem from="1556520117446" duration="36881000" />
+      <workItem from="1556608465156" duration="68513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28777000" />
+    <option name="totallyTimeSpent" value="123798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3298279" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -276,7 +223,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3298279" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3298279" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298279" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -289,91 +236,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/style1.less" />
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/pub/first_test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/less/lessvar.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/less/style1.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/classes/Visa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/classes/Paypal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/classes/PaymentInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/classes/PayPalAdapter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/classes/VisaAdapter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/api/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/api/products/product.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" column="35" selection-start-line="44" selection-start-column="62" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/api/manage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pub/pattern.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="1500">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
@@ -384,6 +250,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pub/.htaccess.php" />
     <entry file="file://$PROJECT_DIR$/pub/api/objects/product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -391,24 +258,302 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/api/config/api.php">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="510">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/readapi.php">
+    <entry file="file://$PROJECT_DIR$/apache/demo.apache.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apache/project1.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/config/api.php" />
+    <entry file="file://$PROJECT_DIR$/pub/models/login.php" />
+    <entry file="file://$PROJECT_DIR$/pub/models/login_model.php" />
+    <entry file="file://$PROJECT_DIR$/pub/models/404_model.php" />
+    <entry file="file://$PROJECT_DIR$/pub/models/help_model.php" />
+    <entry file="file://$PROJECT_DIR$/pub/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub/api/person/read.php">
+    <entry file="file://$PROJECT_DIR$/pub/controllers/help.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/less/lessvar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/config/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/config/path.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/models/HelpModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/dashboard/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="8" selection-start-column="11" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/404/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/controllers/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/help/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/dashboard/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/Hash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/models/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/models/LoginModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/models/DashboardModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/less/style1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/controllers/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/controllers/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/libs/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/views/user/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/controllers/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/controllers/Help.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/controllers/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

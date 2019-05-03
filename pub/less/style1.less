@@ -2,6 +2,38 @@
 @import "lessvar.less";
 
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  border: 1px solid white;
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #1A237E;
+  color: #f3f3f3;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px;
+}
 body {
   color: @text-color;
   text-align: center;
@@ -14,7 +46,7 @@ table {
   .border-radius-round();
   .box-shadow(15px, 20px, 10px, gray);
   &:hover {
-    color: white;
+    color: #ffff;
   }
 
 }
@@ -26,7 +58,7 @@ table {
 }
 
 .border-radius (@radius: 5px) {
-  -webkit-border-radius: 5px @radius 5px;
+  -webkit-border-radius: 5px @radius 5px 5px;
   -moz-border-radius: 5px @radius 5px;
   border-radius: 5px @radius 5px;
 }
@@ -37,20 +69,46 @@ table {
   border-radius: @radius;
 }
 
+.del {
+  border: 1px solid red;
+}
+
+.list1 {
+  border: 1px solid black;
+  width: 50%;
+
+}
+
 #mypar2 {
-  border: 1px solid olive;
-  .border-radius(25px);
-  background-color: lighten(olive,10%);
+  border: @thinBoredr;
+  //.border-radius(15px);
+  background-color: lighten(black,85%);
+  min-height: 300px;
+  height: 50%;
+  width: 80%;
 }
 
 #mypar2:after {
   content: @myStringVar;
+
 }
 
 #mypar1 {
   font-size: @myfontsize;
   border: @thinBoredr;
   padding: @paddingVar;
-  .border-radius-round(20px);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  //.border-radius-round(5px);
 }
+#footer {
+  color: #f3f3f3;
+  font-size: @myfontsize;
+  border: @thinBoredr;
+  padding: @paddingVar;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: darkslateblue;
+  //.border-radius-round(5px);
 
+}

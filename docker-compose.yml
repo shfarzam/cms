@@ -55,8 +55,8 @@ services:
       - db
       - web
     volumes:
-      - ./pub/:/var/www/html/
       - ./docker/apache2/sites-enabled:/etc/apache2/sites-enabled
+      - ./pub/:/var/www/html/
       - ./logs:/var/log/apache2
       - /var/run/docker.sock:/tmp/docker.sock:ro
 
