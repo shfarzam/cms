@@ -10,6 +10,7 @@ class Help extends Controller
 
     function index()
     {
+        $this->view->title = 'Help';
         $this->view->msg = '....this is HELP...';
         $this->view->Render('help/index');
     }

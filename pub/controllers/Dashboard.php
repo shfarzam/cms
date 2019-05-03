@@ -6,19 +6,13 @@ class Dashboard extends Controller
     function __construct()
     {
         parent::__construct();
-        $logIn = Session::get('logIn');
-
-        if ($logIn == false) {
-            Session::destroy();
-            header('location: ' . URL . 'Login');
-
-        }
+        Auth::HandleLogin();
         $this->view->js = array('dashboard/js/ajax.js');
     }
 
     function index()
     {
-        $this->view->msg = '....this is Dashboard...';
+        $this->view->title = 'Dashboard';
         $this->view->Render('dashboard/index');
     }
 

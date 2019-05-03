@@ -2,6 +2,9 @@
 
 class Bootstrap
 {
+    private $_url = null;
+    private $_controller = null;
+
     function __construct()
     {
         Session::init();
@@ -11,37 +14,48 @@ class Bootstrap
     // RUN Method to make pages
     public function run()
     {
-        $url = isset($_GET['first']) ? $_GET['first'] : null;
-        $url = filter_var($url, FILTER_SANITIZE_URL);
-        $url = explode('/', (rtrim($url, '/')));
+        $this->_getUrl();
 
-        if (empty($url[0])) {
-            require './controllers/index.php';
-            $controller = new Index();
-            $controller->index();
-            return false;
-        } else {
-            $this->call($url);
-        }
-
-
+        $this->_loadController();
     }
 
     // Create Models and Controllers
-    function call($url)
+    function call()
     {
+        $url = $this->_url;
+
         if ($this->CheckFile($url[0])) {
-            $controller = new $url[0];
-            $controller->LoadModel($url[0]);
 
-            if (isset($url[2])) {
-                $this->FindPage($controller, $url[1], $url[2]);
-            } elseif (isset($url[1])) {
-                $this->FindPage($controller, $url[1]);
-            } else {
-                $controller->index();
+            $this->_controller = new $url[0];
+            $this->_controller->LoadModel($url[0]);
+            $length = count($url);
+            if($length > 1) {
+                if (!method_exists($this->_controller, $url[1])) {
+                    $this->_Error();
+                    return false;
+                }
             }
-
+                $length--;
+                switch ($length) {
+                    case  5:
+                        $this->_controller->{$url[1]}($url[2], $url[3], $url[4], $url[5]);
+                        break;
+                    case  4:
+                        $this->_controller->{$url[1]}($url[2], $url[3], $url[4]);
+                        break;
+                    case  3:
+                        $this->_controller->{$url[1]}($url[2], $url[3]);
+                        break;
+                    case  2:
+                        $this->_controller->{$url[1]}($url[2]);
+                        break;
+                    case  1:
+                        $this->_controller->{$url[1]}();
+                        break;
+                    default:
+                        $this->_controller->index();
+                        break;
+                }
         }
 
     }
@@ -54,25 +68,31 @@ class Bootstrap
         if (file_exists($file)) {
             return require $file;
         } else {
-            $this->Error();
-            return false;
+            $this->_Error();
         }
     }
 
-    //Find URL to show that
-    function FindPage($controller, $item1, $item2 = null)
+    private function _getUrl()
     {
-        if (isset($item2) && method_exists($controller, $item1)) {
-            $controller->{$item1}($item2);
-        } elseif (isset($item1) && method_exists($controller, $item1)) {
-            $controller->{$item1}();
+        $url = isset($_GET['first']) ? $_GET['first'] : null;
+        $url = filter_var($url, FILTER_SANITIZE_URL);
+        $this->_url = $url = explode('/', (rtrim($url, '/')));
+    }
+
+    private function _loadController()
+    {
+        if (empty($this->_url[0])) {
+            require './controllers/index.php';
+            $controller = new Index();
+            $controller->index();
+            return false;
         } else {
-            $this->Error();
+            $this->call();
         }
     }
 
     //Show Error Page
-    function Error()
+    private function _Error()
     {
         require './controllers/404.php';
         $controller = new Er();

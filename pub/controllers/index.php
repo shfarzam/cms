@@ -10,6 +10,7 @@ class Index extends Controller
 
     function index()
     {
+        $this->view->title = 'Index';
         $this->view->msg = '....this is index...';
         $this->view->Render('index/index');
     }

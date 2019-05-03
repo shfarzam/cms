@@ -15,7 +15,8 @@ class DashboardModel extends Model
 
     function XhrGetList()
     {
-        $data = $this->db->select("SELECT * FROM users ");;
+        $data = null;
+        $data = $this->db->select("SELECT * FROM users ");
         echo json_encode($data);
     }
 

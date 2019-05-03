@@ -2,6 +2,7 @@
 
 //config
 require 'config.php';
+require 'Auth.php';
 
 //autoloader
 

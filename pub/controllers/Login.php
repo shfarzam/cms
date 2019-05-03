@@ -9,6 +9,7 @@ class Login extends Controller
 
     function index()
     {
+        $this->view->title = 'Login';
         $this->view->Render('login/index');
     }
 

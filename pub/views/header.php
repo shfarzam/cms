@@ -1,7 +1,7 @@
 <html xmlns="http://www.w3.org/1999/html">
 <head content="text/plain">
 
-    <title>Hello Docker World !!!</title>
+    <title><?=(isset($this->title)) ? $this->title : 'Hello Docker World !!!' ?></title>
 </head>
 <link rel="stylesheet/less" type="text/less" href="<?php echo URL; ?>less/style1.less"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.js"></script>

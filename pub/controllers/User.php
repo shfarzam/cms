@@ -6,17 +6,13 @@ class User extends Controller
     function __construct()
     {
         parent::__construct();
-        $logIn = Session::get('logIn');
-        $type = Session::get('type');
 
-        if ($logIn == false || $type != 'admin') {
-            Session::destroy();
-            header('location: ' . URL . 'Login');
-        }
+        Auth::HandleLogin('admin');
     }
 
     function index()
     {
+        $this->view->title = 'User Info';
         $this->view->userList = $this->model->userList();
         $this->view->Render('user/index');
     }
@@ -36,6 +32,7 @@ class User extends Controller
         if (isset($id)) {
             $this->view->user = $this->model->userList2($id);
         }
+        $this->view->title = 'User Edit';
         $this->view->Render('user/edit');
     }
 
